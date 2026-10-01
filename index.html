@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; img-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open in Paseo</title>
+<style>
+  body { font: 17px/1.5 -apple-system, system-ui, sans-serif; margin: 2rem auto; max-width: 30rem; padding: 0 1rem; }
+  .button { display: block; padding: 1rem; border-radius: .75rem; background: #111; color: #fff;
+            font-size: 1.2rem; text-align: center; text-decoration: none; }
+  #web { color: inherit; }
+</style>
+</head>
+<body>
+<div id="links" hidden>
+<a id="app" class="button">Open in the Paseo app</a>
+<p><a id="web">Open in the web app instead</a></p>
+</div>
+<p id="bad" hidden>Not a Paseo thread link.</p>
+<p>This page opens an agent thread from the orchestrator dashboard in Paseo.</p>
+<script src="open.js"></script>
+</body>
+</html>
